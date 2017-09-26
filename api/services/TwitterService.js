@@ -12,7 +12,7 @@ function getTweets(){
 	var params = {
 		screen_name: 'comoayudarmx',
 		result_type: 'recent',
-		q: '#tenemos'
+		//q: '#tenemos'
 	};
 	return new Promise(function(resolve, reject){
 		//client.get('statuses/user_timeline', params, function(error, tweets, response) {
